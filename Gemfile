@@ -57,3 +57,8 @@ gem 'kaminari'
 
 # pry-byebug Install
 gem 'pry-byebug', group: :development
+
+# heroku
+group :production do
+  gem 'pg'
+end
